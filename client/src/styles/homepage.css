@@ -1,0 +1,47 @@
+/* ('../images/background.jpg');  */
+
+body {
+    background-image: url('../images/background.jpg'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .btn-upload {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-upload:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 576px) {
+    .card {
+      width: 90%;
+    }
+  }
+   
